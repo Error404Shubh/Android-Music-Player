@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/header_background"
+    android:fitsSystemWindows="true"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="218dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="10dp"
+        android:focusable="true"
+        android:src="@drawable/headset_icon" />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/img_icon"
+        android:text="Shubham_Music"
+        android:textColor="@color/text_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
